@@ -241,18 +241,22 @@ pry(main)> market.add_vendor(vendor3)
 
 pry(main)> market.total_inventory
 #=> {
+  #peach
   #   #<Item:0x007f9c56740d48...> => {
   #     quantity: 100,
   #     vendors: [#<Vendor:0x00007fe1348a1160...>, #<Vendor:0x00007fe134910650...>]
   #   },
+  #tomato
   #   #<Item:0x007f9c565c0ce8...> => {
   #     quantity: 7,
   #     vendors: [#<Vendor:0x00007fe1348a1160...>]
   #   },
+  #Bnana nice cream
   #   #<Item:0x007f9c56343038...> => {
   #     quantity: 50,
   #     vendors: [#<Vendor:0x00007fe1349bed40...>]
   #   },
+  #peach ice cream
   #   #<Item:0x007f9c562a5f18...> => {
   #     quantity: 35,
   #     vendors: [#<Vendor:0x00007fe1349bed40...>, #<Vendor:0x00007fe134910650...>]
